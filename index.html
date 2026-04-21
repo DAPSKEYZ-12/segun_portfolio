@@ -1,0 +1,2019 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- ===== SEO META TAGS ===== -->
+  <title>Oluwasegun Fasika | Professional Mathematics Educator – Asaba, Nigeria</title>
+  <meta name="description" content="Expert Mathematics tutor with 5+ years experience. Specialising in Primary, Secondary, SAT, IGCSE, WAEC, GCE, NECO preparation and special intervention classes. Based in Asaba, Delta State, Nigeria." />
+  <meta name="keywords" content="mathematics tutor, maths teacher, WAEC prep, IGCSE, SAT, NECO, GCE, home lesson, online tutoring, Asaba, Delta State, Nigeria" />
+  <meta name="author" content="Oluwasegun Fasika" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Oluwasegun Fasika | Professional Mathematics Educator" />
+  <meta property="og:description" content="Transforming Mathematics Into Mastery – 5+ years of expert tutoring across Primary, Secondary and International curricula." />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="en_NG" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,900;1,400;1,600&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome (icons) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <style>
+    /* ============================================================
+       CSS CUSTOM PROPERTIES – WINE & GOLD PALETTE
+    ============================================================ */
+    :root {
+      --wine:        #722F37;
+      --wine-dark:   #4E1F26;
+      --wine-deep:   #3A1520;
+      --wine-light:  #9B4A55;
+      --wine-muted:  #C07080;
+      --gold:        #C9A84C;
+      --gold-light:  #E8C97A;
+      --gold-pale:   #F5E6C0;
+      --cream:       #FAF6EE;
+      --off-white:   #F2EDE3;
+      --parchment:   #EDE3D0;
+      --dark:        #1C1008;
+      --text:        #2E1A10;
+      --text-muted:  #6B4C3B;
+      --border:      rgba(114,47,55,.15);
+
+      --shadow-sm:   0 2px 12px rgba(114,47,55,.10);
+      --shadow-md:   0 8px 32px rgba(114,47,55,.15);
+      --shadow-lg:   0 20px 60px rgba(114,47,55,.20);
+
+      --radius:      12px;
+      --radius-lg:   20px;
+      --transition:  all .35s cubic-bezier(.4,0,.2,1);
+
+      /* Google Apps Script Web App URL — replace after deployment */
+      --gas-url: 'YOUR_GOOGLE_APPS_SCRIPT_WEB_APP_URL';
+    }
+
+    /* ============================================================
+       RESET & BASE
+    ============================================================ */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html {
+      scroll-behavior: smooth;
+      font-size: 16px;
+    }
+
+    body {
+      font-family: 'DM Sans', sans-serif;
+      background-color: var(--cream);
+      color: var(--text);
+      line-height: 1.7;
+      overflow-x: hidden;
+    }
+
+    h1, h2, h3, h4 {
+      font-family: 'Playfair Display', Georgia, serif;
+      line-height: 1.25;
+    }
+
+    p { font-family: 'Cormorant Garamond', Georgia, serif; font-size: 1.1rem; }
+
+    a { text-decoration: none; color: inherit; }
+
+    img { max-width: 100%; display: block; }
+
+    ul { list-style: none; }
+
+    /* ============================================================
+       UTILITY CLASSES
+    ============================================================ */
+    .container {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    .section {
+      padding: 100px 0;
+    }
+
+    .section--dark {
+      background: var(--wine-deep);
+      color: var(--cream);
+    }
+
+    .section--alt {
+      background: var(--off-white);
+    }
+
+    .section__label {
+      font-family: 'DM Sans', sans-serif;
+      font-size: .75rem;
+      font-weight: 600;
+      letter-spacing: .2em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .section__label::before,
+    .section__label::after {
+      content: '';
+      display: inline-block;
+      width: 32px;
+      height: 1px;
+      background: var(--gold);
+    }
+
+    .section__title {
+      font-size: clamp(2rem, 4vw, 3rem);
+      color: var(--wine-deep);
+      margin-bottom: 18px;
+    }
+
+    .section--dark .section__title { color: var(--gold-light); }
+
+    .section__subtitle {
+      font-size: 1.2rem;
+      color: var(--text-muted);
+      max-width: 600px;
+    }
+
+    .section--dark .section__subtitle { color: rgba(250,246,238,.7); }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 14px 30px;
+      border-radius: 50px;
+      font-family: 'DM Sans', sans-serif;
+      font-size: .9rem;
+      font-weight: 600;
+      letter-spacing: .04em;
+      cursor: pointer;
+      border: 2px solid transparent;
+      transition: var(--transition);
+      white-space: nowrap;
+    }
+
+    .btn--primary {
+      background: var(--wine);
+      color: #fff;
+      border-color: var(--wine);
+    }
+
+    .btn--primary:hover {
+      background: var(--wine-dark);
+      border-color: var(--wine-dark);
+      transform: translateY(-2px);
+      box-shadow: 0 8px 24px rgba(114,47,55,.35);
+    }
+
+    .btn--outline {
+      background: transparent;
+      color: var(--wine);
+      border-color: var(--wine);
+    }
+
+    .btn--outline:hover {
+      background: var(--wine);
+      color: #fff;
+      transform: translateY(-2px);
+    }
+
+    .btn--gold {
+      background: var(--gold);
+      color: var(--wine-deep);
+      border-color: var(--gold);
+    }
+
+    .btn--gold:hover {
+      background: var(--gold-light);
+      transform: translateY(-2px);
+      box-shadow: 0 8px 24px rgba(201,168,76,.40);
+    }
+
+    .btn--ghost-white {
+      background: transparent;
+      color: #fff;
+      border-color: rgba(255,255,255,.5);
+    }
+
+    .btn--ghost-white:hover {
+      background: rgba(255,255,255,.12);
+      border-color: #fff;
+      transform: translateY(-2px);
+    }
+
+    /* Reveal animation */
+    .reveal {
+      opacity: 0;
+      transform: translateY(36px);
+      transition: opacity .7s cubic-bezier(.4,0,.2,1), transform .7s cubic-bezier(.4,0,.2,1);
+    }
+
+    .reveal.visible {
+      opacity: 1;
+      transform: none;
+    }
+
+    /* ============================================================
+       NAVIGATION
+    ============================================================ */
+    .nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 1000;
+      padding: 20px 0;
+      transition: var(--transition);
+    }
+
+    .nav.scrolled {
+      background: rgba(250,246,238,.97);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      padding: 12px 0;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .nav__inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+    }
+
+    .nav__logo {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .nav__logo-name {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: var(--wine);
+      line-height: 1.1;
+    }
+
+    .nav__logo-sub {
+      font-family: 'DM Sans', sans-serif;
+      font-size: .65rem;
+      letter-spacing: .15em;
+      text-transform: uppercase;
+      color: var(--gold);
+    }
+
+    .nav__links {
+      display: flex;
+      align-items: center;
+      gap: 32px;
+    }
+
+    .nav__links a {
+      font-family: 'DM Sans', sans-serif;
+      font-size: .88rem;
+      font-weight: 500;
+      letter-spacing: .03em;
+      color: var(--text);
+      position: relative;
+      transition: color .25s;
+    }
+
+    .nav__links a::after {
+      content: '';
+      position: absolute;
+      bottom: -3px;
+      left: 0;
+      width: 0;
+      height: 2px;
+      background: var(--wine);
+      transition: width .3s;
+    }
+
+    .nav__links a:hover { color: var(--wine); }
+    .nav__links a:hover::after { width: 100%; }
+
+    .nav__cta { display: flex; gap: 10px; }
+
+    /* Hamburger */
+    .nav__hamburger {
+      display: none;
+      flex-direction: column;
+      gap: 5px;
+      cursor: pointer;
+      padding: 4px;
+    }
+
+    .nav__hamburger span {
+      display: block;
+      width: 24px;
+      height: 2px;
+      background: var(--wine);
+      border-radius: 2px;
+      transition: var(--transition);
+    }
+
+    .nav__hamburger.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+    .nav__hamburger.open span:nth-child(2) { opacity: 0; }
+    .nav__hamburger.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+    /* Mobile menu */
+    .nav__mobile {
+      display: none;
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%; height: 100vh;
+      background: var(--cream);
+      z-index: 999;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 36px;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity .35s;
+    }
+
+    .nav__mobile.open {
+      opacity: 1;
+      pointer-events: all;
+    }
+
+    .nav__mobile a {
+      font-family: 'Playfair Display', serif;
+      font-size: 2rem;
+      font-weight: 600;
+      color: var(--wine);
+    }
+
+    /* ============================================================
+       HERO
+    ============================================================ */
+    .hero {
+      position: relative;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      overflow: hidden;
+      background: var(--wine-deep);
+    }
+
+    /* Decorative background pattern */
+    .hero__bg {
+      position: absolute;
+      inset: 0;
+      overflow: hidden;
+    }
+
+    .hero__bg-gradient {
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse 80% 80% at 70% 50%, rgba(114,47,55,.6) 0%, transparent 65%),
+                  radial-gradient(ellipse 50% 50% at 20% 80%, rgba(201,168,76,.12) 0%, transparent 60%),
+                  linear-gradient(135deg, var(--wine-deep) 0%, #2A0F14 100%);
+    }
+
+    .hero__bg-pattern {
+      position: absolute;
+      inset: 0;
+      background-image:
+        repeating-linear-gradient(
+          45deg,
+          transparent,
+          transparent 60px,
+          rgba(201,168,76,.03) 60px,
+          rgba(201,168,76,.03) 61px
+        );
+    }
+
+    /* Floating math symbols */
+    .hero__symbols {
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+    }
+
+    .hero__symbol {
+      position: absolute;
+      font-family: 'Playfair Display', serif;
+      color: rgba(201,168,76,.08);
+      font-size: 120px;
+      font-weight: 900;
+      user-select: none;
+      animation: floatSymbol 8s ease-in-out infinite;
+    }
+
+    .hero__symbol:nth-child(1) { top: 10%; left: 5%; animation-delay: 0s; font-size: 80px; }
+    .hero__symbol:nth-child(2) { top: 60%; left: 3%; animation-delay: 1.5s; font-size: 60px; }
+    .hero__symbol:nth-child(3) { top: 25%; right: 8%; animation-delay: 3s; font-size: 100px; }
+    .hero__symbol:nth-child(4) { bottom: 15%; right: 5%; animation-delay: .8s; font-size: 70px; }
+    .hero__symbol:nth-child(5) { top: 50%; left: 45%; animation-delay: 2s; font-size: 50px; }
+
+    @keyframes floatSymbol {
+      0%, 100% { transform: translateY(0) rotate(-5deg); }
+      50% { transform: translateY(-20px) rotate(5deg); }
+    }
+
+    .hero__content {
+      position: relative;
+      z-index: 2;
+      padding: 140px 0 100px;
+    }
+
+    .hero__badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(201,168,76,.15);
+      border: 1px solid rgba(201,168,76,.3);
+      color: var(--gold-light);
+      padding: 8px 18px;
+      border-radius: 50px;
+      font-family: 'DM Sans', sans-serif;
+      font-size: .78rem;
+      font-weight: 600;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      margin-bottom: 28px;
+      animation: fadeInDown .8s ease both;
+    }
+
+    .hero__badge i { font-size: .8rem; }
+
+    .hero__title {
+      font-size: clamp(2.8rem, 7vw, 5.5rem);
+      font-weight: 900;
+      color: #fff;
+      margin-bottom: 24px;
+      line-height: 1.1;
+      animation: fadeInUp .9s ease .1s both;
+    }
+
+    .hero__title em {
+      font-style: italic;
+      color: var(--gold-light);
+    }
+
+    .hero__subtitle {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(1.1rem, 2.5vw, 1.5rem);
+      color: rgba(250,246,238,.75);
+      margin-bottom: 40px;
+      animation: fadeInUp .9s ease .2s both;
+    }
+
+    .hero__subtitle .sep {
+      color: var(--gold);
+      margin: 0 10px;
+    }
+
+    .hero__actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+      animation: fadeInUp .9s ease .3s both;
+    }
+
+    .hero__scroll {
+      position: absolute;
+      bottom: 40px;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+      color: rgba(250,246,238,.4);
+      font-family: 'DM Sans', sans-serif;
+      font-size: .7rem;
+      letter-spacing: .15em;
+      text-transform: uppercase;
+      z-index: 2;
+      animation: fadeIn 1s ease 1s both;
+    }
+
+    .hero__scroll-line {
+      width: 1px;
+      height: 48px;
+      background: linear-gradient(to bottom, rgba(201,168,76,.5), transparent);
+      animation: scrollPulse 2s ease-in-out infinite;
+    }
+
+    @keyframes scrollPulse {
+      0%, 100% { opacity: .5; }
+      50% { opacity: 1; }
+    }
+
+    /* Stat strip */
+    .hero__stats {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0;
+      margin-top: 60px;
+      border-top: 1px solid rgba(201,168,76,.2);
+      padding-top: 40px;
+      animation: fadeInUp .9s ease .4s both;
+    }
+
+    .hero__stat {
+      flex: 1;
+      min-width: 120px;
+      padding: 0 32px 0 0;
+    }
+
+    .hero__stat:not(:last-child) {
+      border-right: 1px solid rgba(201,168,76,.15);
+      margin-right: 32px;
+    }
+
+    .hero__stat-num {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: var(--gold-light);
+      line-height: 1;
+      margin-bottom: 4px;
+    }
+
+    .hero__stat-label {
+      font-family: 'DM Sans', sans-serif;
+      font-size: .78rem;
+      color: rgba(250,246,238,.5);
+      letter-spacing: .06em;
+    }
+
+    @keyframes fadeInDown {
+      from { opacity: 0; transform: translateY(-20px); }
+      to   { opacity: 1; transform: none; }
+    }
+
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(24px); }
+      to   { opacity: 1; transform: none; }
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to   { opacity: 1; }
+    }
+
+    /* ============================================================
+       ABOUT
+    ============================================================ */
+    .about__grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 80px;
+      align-items: center;
+    }
+
+    .about__visual {
+      position: relative;
+    }
+
+    .about__portrait-wrap {
+      position: relative;
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      aspect-ratio: 4/5;
+      background: var(--parchment);
+    }
+
+    /* Placeholder portrait — replace <img> src with actual photo */
+    .about__portrait-placeholder {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(145deg, var(--wine-light) 0%, var(--wine-deep) 100%);
+      color: rgba(255,255,255,.6);
+      gap: 16px;
+    }
+
+    .about__portrait-placeholder i { font-size: 5rem; }
+
+    .about__portrait-placeholder span {
+      font-family: 'DM Sans', sans-serif;
+      font-size: .85rem;
+      letter-spacing: .08em;
+    }
+
+    /* Decorative frame */
+    .about__frame {
+      position: absolute;
+      top: -16px;
+      left: -16px;
+      right: 16px;
+      bottom: 16px;
+      border: 2px solid var(--gold);
+      border-radius: var(--radius-lg);
+      pointer-events: none;
+    }
+
+    .about__badge-float {
+      position: absolute;
+      bottom: -20px;
+      right: -20px;
+      background: var(--wine);
+      color: #fff;
+      padding: 20px 24px;
+      border-radius: var(--radius);
+      box-shadow: var(--shadow-md);
+      text-align: center;
+    }
+
+    .about__badge-float strong {
+      display: block;
+      font-family: 'Playfair Display', serif;
+      font-size: 2rem;
+      font-weight: 700;
+      color: var(--gold-light);
+    }
+
+    .about__badge-float span {
+      font-family: 'DM Sans', sans-serif;
+      font-size: .75rem;
+      letter-spacing: .08em;
+      opacity: .85;
+    }
+
+    .about__content .section__label { justify-content: flex-start; }
+
+    .about__bio {
+      margin: 24px 0;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+
+    .about__bio p {
+      color: var(--text-muted);
+      font-size: 1.05rem;
+    }
+
+    .about__specialisms {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin: 28px 0;
+    }
+
+    .about__tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 7px 16px;
+      background: var(--gold-pale);
+      border: 1px solid rgba(201,168,76,.4);
+      border-radius: 50px;
+      font-family: 'DM Sans', sans-serif;
+      font-size: .82rem;
+      font-weight: 500;
+      color: var(--wine-dark);
+    }
+
+    .about__tag i { color: var(--gold); font-size: .75rem; }
+
+    /* ============================================================
+       SERVICES
+    ============================================================ */
+    .services__header { text-align: center; margin-bottom: 60px; }
+    .services__header .section__label { justify-content: center; }
+    .services__header .section__subtitle { margin: 0 auto; }
+
+    .services__grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 28px;
+    }
+
+    .service-card {
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 36px 32px;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      box-shadow: var(--shadow-sm);
+      transition: var(--transition);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .service-card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0;
+      width: 4px;
+      height: 100%;
+      background: linear-gradient(to bottom, var(--wine), var(--wine-light));
+      transform: scaleY(0);
+      transform-origin: bottom;
+      transition: transform .4s cubic-bezier(.4,0,.2,1);
+    }
+
+    .service-card:hover {
+      transform: translateY(-6px);
+      box-shadow: var(--shadow-lg);
+      border-color: rgba(114,47,55,.25);
+    }
+
+    .service-card:hover::before { transform: scaleY(1); }
+
+    .service-card--featured {
+      background: linear-gradient(145deg, var(--wine-deep) 0%, #3A1520 100%);
+      border-color: rgba(201,168,76,.3);
+      color: #fff;
+    }
+
+    .service-card--featured .service-card__title { color: var(--gold-light); }
+    .service-card--featured .service-card__desc { color: rgba(250,246,238,.7); }
+
+    .service-card__icon {
+      width: 52px;
+      height: 52px;
+      background: var(--gold-pale);
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.3rem;
+      color: var(--wine);
+      flex-shrink: 0;
+    }
+
+    .service-card--featured .service-card__icon {
+      background: rgba(201,168,76,.15);
+      color: var(--gold-light);
+    }
+
+    .service-card__title {
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: var(--wine-dark);
+    }
+
+    .service-card__desc {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1rem;
+      color: var(--text-muted);
+      flex: 1;
+    }
+
+    .service-card__price {
+      display: flex;
+      align-items: flex-end;
+      gap: 8px;
+      flex-wrap: wrap;
+      padding: 16px 0;
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .service-card--featured .service-card__price {
+      border-color: rgba(201,168,76,.2);
+    }
+
+    .price-ngn {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.6rem;
+      font-weight: 700;
+      color: var(--wine);
+      line-height: 1;
+    }
+
+    .service-card--featured .price-ngn { color: var(--gold-light); }
+
+    .price-unit {
+      font-family: 'DM Sans', sans-serif;
+      font-size: .8rem;
+      color: var(--text-muted);
+      margin-bottom: 3px;
+    }
+
+    .service-card--featured .price-unit { color: rgba(250,246,238,.5); }
+
+    .price-usd {
+      font-family: 'DM Sans', sans-serif;
+      font-size: .85rem;
+      font-weight: 500;
+      background: var(--gold-pale);
+      color: var(--wine-dark);
+      padding: 4px 10px;
+      border-radius: 50px;
+      margin-left: auto;
+    }
+
+    .service-card--featured .price-usd {
+      background: rgba(201,168,76,.15);
+      color: var(--gold-light);
+    }
+
+    .service-card .btn {
+      width: 100%;
+      justify-content: center;
+    }
+
+    /* ============================================================
+       WHY CHOOSE / FEATURES
+    ============================================================ */
+    .features__grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 24px;
+    }
+
+    .feature-item {
+      padding: 32px;
+      border-radius: var(--radius);
+      border: 1px solid rgba(250,246,238,.08);
+      background: rgba(255,255,255,.03);
+      transition: var(--transition);
+    }
+
+    .feature-item:hover {
+      background: rgba(255,255,255,.06);
+      transform: translateY(-4px);
+    }
+
+    .feature-item__icon {
+      width: 48px;
+      height: 48px;
+      background: rgba(201,168,76,.12);
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.2rem;
+      color: var(--gold);
+      margin-bottom: 18px;
+    }
+
+    .feature-item__title {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.1rem;
+      color: var(--gold-light);
+      margin-bottom: 8px;
+    }
+
+    .feature-item__desc {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1rem;
+      color: rgba(250,246,238,.6);
+    }
+
+    /* ============================================================
+       BOOKING FORM
+    ============================================================ */
+    .booking__grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 80px;
+      align-items: start;
+    }
+
+    .booking__info .section__label { justify-content: flex-start; }
+
+    .booking__contact-items {
+      margin-top: 40px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .booking__contact-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 16px;
+    }
+
+    .booking__contact-item i {
+      width: 40px;
+      height: 40px;
+      background: var(--gold-pale);
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--wine);
+      font-size: .95rem;
+      flex-shrink: 0;
+    }
+
+    .booking__contact-item div strong {
+      display: block;
+      font-family: 'DM Sans', sans-serif;
+      font-size: .85rem;
+      font-weight: 600;
+      color: var(--wine-dark);
+      margin-bottom: 2px;
+    }
+
+    .booking__contact-item div span {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1rem;
+      color: var(--text-muted);
+    }
+
+    /* Form card */
+    .form-card {
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 48px;
+      box-shadow: var(--shadow-md);
+    }
+
+    .form-card__title {
+      font-size: 1.4rem;
+      color: var(--wine-dark);
+      margin-bottom: 6px;
+    }
+
+    .form-card__sub {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1rem;
+      color: var(--text-muted);
+      margin-bottom: 32px;
+    }
+
+    .form__row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+    }
+
+    .form__group {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      margin-bottom: 20px;
+    }
+
+    .form__group:last-of-type { margin-bottom: 0; }
+
+    .form__label {
+      font-family: 'DM Sans', sans-serif;
+      font-size: .82rem;
+      font-weight: 600;
+      color: var(--wine-dark);
+      letter-spacing: .04em;
+    }
+
+    .form__label .req { color: var(--wine); }
+
+    .form__input,
+    .form__select,
+    .form__textarea {
+      padding: 12px 16px;
+      border: 1.5px solid var(--parchment);
+      border-radius: var(--radius);
+      font-family: 'DM Sans', sans-serif;
+      font-size: .9rem;
+      color: var(--text);
+      background: var(--cream);
+      outline: none;
+      transition: var(--transition);
+      width: 100%;
+    }
+
+    .form__input:focus,
+    .form__select:focus,
+    .form__textarea:focus {
+      border-color: var(--wine);
+      background: #fff;
+      box-shadow: 0 0 0 3px rgba(114,47,55,.08);
+    }
+
+    .form__input::placeholder,
+    .form__textarea::placeholder { color: #b5a090; }
+
+    .form__select {
+      appearance: none;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%23722F37' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: right 14px center;
+    }
+
+    .form__textarea { resize: vertical; min-height: 110px; }
+
+    .form__submit-wrap { margin-top: 28px; }
+
+    .form__submit {
+      width: 100%;
+      justify-content: center;
+      font-size: 1rem;
+      padding: 16px 24px;
+    }
+
+    /* Status messages */
+    .form__status {
+      display: none;
+      padding: 14px 18px;
+      border-radius: var(--radius);
+      font-family: 'DM Sans', sans-serif;
+      font-size: .9rem;
+      font-weight: 500;
+      margin-top: 16px;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .form__status.success {
+      display: flex;
+      background: #d4edda;
+      color: #155724;
+      border: 1px solid #c3e6cb;
+    }
+
+    .form__status.error {
+      display: flex;
+      background: #f8d7da;
+      color: #721c24;
+      border: 1px solid #f5c6cb;
+    }
+
+    /* Spinner */
+    .spinner {
+      display: none;
+      width: 18px;
+      height: 18px;
+      border: 2px solid rgba(255,255,255,.4);
+      border-top-color: #fff;
+      border-radius: 50%;
+      animation: spin .7s linear infinite;
+    }
+
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    /* ============================================================
+       FOOTER
+    ============================================================ */
+    .footer {
+      background: var(--wine-deep);
+      color: rgba(250,246,238,.7);
+      padding: 60px 0 32px;
+    }
+
+    .footer__grid {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr;
+      gap: 60px;
+      margin-bottom: 48px;
+    }
+
+    .footer__brand-name {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.5rem;
+      color: #fff;
+      margin-bottom: 4px;
+    }
+
+    .footer__brand-tagline {
+      font-family: 'DM Sans', sans-serif;
+      font-size: .75rem;
+      letter-spacing: .15em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 16px;
+    }
+
+    .footer__brand-bio {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: .98rem;
+      line-height: 1.7;
+      max-width: 340px;
+    }
+
+    .footer__heading {
+      font-family: 'DM Sans', sans-serif;
+      font-size: .75rem;
+      font-weight: 700;
+      letter-spacing: .15em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 20px;
+    }
+
+    .footer__links {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .footer__links a {
+      font-family: 'DM Sans', sans-serif;
+      font-size: .88rem;
+      color: rgba(250,246,238,.6);
+      transition: color .25s;
+    }
+
+    .footer__links a:hover { color: var(--gold-light); }
+
+    .footer__bottom {
+      padding-top: 24px;
+      border-top: 1px solid rgba(250,246,238,.08);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .footer__copy {
+      font-family: 'DM Sans', sans-serif;
+      font-size: .82rem;
+      color: rgba(250,246,238,.4);
+    }
+
+    .footer__socials {
+      display: flex;
+      gap: 12px;
+    }
+
+    .footer__social-link {
+      width: 36px;
+      height: 36px;
+      background: rgba(255,255,255,.06);
+      border: 1px solid rgba(255,255,255,.1);
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: rgba(250,246,238,.6);
+      font-size: .85rem;
+      transition: var(--transition);
+    }
+
+    .footer__social-link:hover {
+      background: var(--wine);
+      border-color: var(--wine);
+      color: #fff;
+    }
+
+    /* ============================================================
+       WHATSAPP FLOATING BUTTON
+    ============================================================ */
+    .wa-fab {
+      position: fixed;
+      bottom: 28px;
+      right: 28px;
+      width: 60px;
+      height: 60px;
+      background: #25D366;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.6rem;
+      color: #fff;
+      box-shadow: 0 8px 24px rgba(37,211,102,.4);
+      z-index: 999;
+      transition: var(--transition);
+      animation: waFloat 3s ease-in-out infinite;
+    }
+
+    .wa-fab:hover {
+      transform: scale(1.12);
+      box-shadow: 0 12px 32px rgba(37,211,102,.55);
+    }
+
+    @keyframes waFloat {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-6px); }
+    }
+
+    /* ============================================================
+       SCROLL-TO-TOP BUTTON
+    ============================================================ */
+    .scroll-top {
+      position: fixed;
+      bottom: 100px;
+      right: 28px;
+      width: 44px;
+      height: 44px;
+      background: var(--wine);
+      color: #fff;
+      border: none;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: .9rem;
+      cursor: pointer;
+      z-index: 999;
+      opacity: 0;
+      pointer-events: none;
+      transition: var(--transition);
+      box-shadow: var(--shadow-sm);
+    }
+
+    .scroll-top.visible {
+      opacity: 1;
+      pointer-events: all;
+    }
+
+    .scroll-top:hover { background: var(--wine-dark); transform: translateY(-3px); }
+
+    /* ============================================================
+       RESPONSIVE
+    ============================================================ */
+    @media (max-width: 1024px) {
+      .about__grid { grid-template-columns: 1fr; gap: 40px; }
+      .about__visual { max-width: 420px; margin: 0 auto; }
+      .booking__grid { grid-template-columns: 1fr; gap: 48px; }
+      .footer__grid { grid-template-columns: 1fr 1fr; }
+    }
+
+    @media (max-width: 768px) {
+      .nav__links, .nav__cta { display: none; }
+      .nav__hamburger { display: flex; }
+      .nav__mobile { display: flex; }
+
+      .section { padding: 70px 0; }
+
+      .hero__stats { gap: 24px; }
+      .hero__stat { flex: none; width: calc(50% - 12px); }
+      .hero__stat:not(:last-child) { border-right: none; margin-right: 0; }
+      .hero__stat:nth-child(odd) {
+        border-right: 1px solid rgba(201,168,76,.15);
+        margin-right: 24px;
+      }
+
+      .services__grid { grid-template-columns: 1fr; }
+
+      .form-card { padding: 28px 20px; }
+      .form__row { grid-template-columns: 1fr; }
+
+      .footer__grid { grid-template-columns: 1fr; gap: 36px; }
+      .footer__bottom { flex-direction: column; text-align: center; }
+    }
+
+    @media (max-width: 480px) {
+      .hero__title { font-size: 2.4rem; }
+      .hero__actions { flex-direction: column; }
+      .hero__actions .btn { width: 100%; justify-content: center; }
+      .about__badge-float { right: 0; bottom: -10px; }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- ============================================================
+       NAVIGATION
+  ============================================================ -->
+  <nav class="nav" id="navbar" aria-label="Main navigation">
+    <div class="container">
+      <div class="nav__inner">
+        <a href="#home" class="nav__logo" aria-label="Home">
+          <span class="nav__logo-name">Oluwasegun Fasika</span>
+          <span class="nav__logo-sub">Mathematics Educator</span>
+        </a>
+
+        <ul class="nav__links" role="list">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#booking">Contact</a></li>
+        </ul>
+
+        <div class="nav__cta">
+          <a href="#booking" class="btn btn--primary">Book a Session</a>
+        </div>
+
+        <button class="nav__hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Mobile nav overlay -->
+  <div class="nav__mobile" id="mobileNav" role="dialog" aria-modal="true" aria-label="Mobile navigation">
+    <a href="#home"     onclick="closeMobile()">Home</a>
+    <a href="#about"    onclick="closeMobile()">About</a>
+    <a href="#services" onclick="closeMobile()">Services</a>
+    <a href="#booking"  onclick="closeMobile()">Contact</a>
+    <a href="#booking"  onclick="closeMobile()" class="btn btn--primary" style="margin-top:12px;">Book a Session</a>
+  </div>
+
+  <!-- ============================================================
+       HERO
+  ============================================================ -->
+  <section class="hero" id="home" aria-labelledby="hero-title">
+    <div class="hero__bg">
+      <div class="hero__bg-gradient"></div>
+      <div class="hero__bg-pattern"></div>
+    </div>
+
+    <!-- Decorative floating symbols -->
+    <div class="hero__symbols" aria-hidden="true">
+      <span class="hero__symbol">∑</span>
+      <span class="hero__symbol">π</span>
+      <span class="hero__symbol">√</span>
+      <span class="hero__symbol">∞</span>
+      <span class="hero__symbol">Δ</span>
+    </div>
+
+    <div class="container">
+      <div class="hero__content">
+        <div class="hero__badge">
+          <i class="fas fa-star"></i>
+          Professional Mathematics Educator
+        </div>
+
+        <h1 class="hero__title" id="hero-title">
+          Transforming<br />
+          Mathematics<br />
+          <em>Into Mastery</em>
+        </h1>
+
+        <p class="hero__subtitle">
+          <span>5+ Years Experience</span>
+          <span class="sep">|</span>
+          <span>Classroom</span>
+          <span class="sep">|</span>
+          <span>Home</span>
+          <span class="sep">|</span>
+          <span>Online Tutoring</span>
+        </p>
+
+        <div class="hero__actions">
+          <a href="#booking" class="btn btn--gold">
+            <i class="fas fa-calendar-check"></i>
+            Book a Session
+          </a>
+          <a href="#services" class="btn btn--ghost-white">
+            <i class="fas fa-graduation-cap"></i>
+            Enroll Now
+          </a>
+        </div>
+
+        <!-- Stats strip -->
+        <div class="hero__stats" aria-label="Key statistics">
+          <div class="hero__stat">
+            <div class="hero__stat-num" data-count="5">0</div>
+            <div class="hero__stat-label">Years Experience</div>
+          </div>
+          <div class="hero__stat">
+            <div class="hero__stat-num" data-count="200">0</div>
+            <div class="hero__stat-label">Students Taught</div>
+          </div>
+          <div class="hero__stat">
+            <div class="hero__stat-num" data-count="5">0</div>
+            <div class="hero__stat-label">Services Offered</div>
+          </div>
+          <div class="hero__stat">
+            <div class="hero__stat-num" data-count="98">0</div>
+            <div class="hero__stat-label">% Pass Rate</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero__scroll" aria-hidden="true">
+      <span>Scroll</span>
+      <div class="hero__scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       ABOUT
+  ============================================================ -->
+  <section class="section" id="about" aria-labelledby="about-title">
+    <div class="container">
+      <div class="about__grid">
+        <!-- Visual column -->
+        <div class="about__visual reveal">
+          <div class="about__frame" aria-hidden="true"></div>
+          <div class="about__portrait-wrap">
+              <img src="your-photo.jpg" alt="Oluwasegun Fasika – Mathematics Educator" />
+            </div>
+          <div class="about__badge-float" aria-label="5+ years of experience">
+            <strong>5+</strong>
+            <span>Years of Excellence</span>
+          </div>
+        </div>
+
+        <!-- Text column -->
+        <div class="about__content reveal">
+          <p class="section__label">About Me</p>
+          <h2 class="section__title" id="about-title">
+            Building Confident<br />Mathematicians
+          </h2>
+
+          <div class="about__bio">
+            <p>
+              I am <strong>Oluwasegun Micheal Fasika</strong>, a dedicated and passionate Mathematics Educator based in
+              Asaba, Delta State, Nigeria, with over five years of proven experience transforming students
+              who struggle with numbers into confident, high-performing learners.
+            </p>
+            <p>
+              My approach blends structured pedagogy with empathy; I meet every learner where they are and
+              guide them systematically to where they need to be. Whether you are a Primary school pupil
+              building foundational skills or a Secondary school student preparing for a high-stakes examination,
+              I design every session around your unique learning style and pace.
+            </p>
+            <p>
+              I specialise in international and national examination preparation including
+              <strong>SAT</strong>, <strong>IGCSE</strong>, <strong>WAEC</strong>, <strong>GCE</strong>
+              and <strong>NECO</strong>. My special intervention programme is specifically crafted for
+              learners who have struggled with Mathematics and need a fresh, patient, and effective
+              approach to unlock their potential.
+            </p>
+          </div>
+
+          <div class="about__specialisms" aria-label="Specialisation areas">
+            <span class="about__tag"><i class="fas fa-check-circle"></i> Primary Level</span>
+            <span class="about__tag"><i class="fas fa-check-circle"></i> Secondary Level</span>
+            <span class="about__tag"><i class="fas fa-check-circle"></i> SAT Preparation</span>
+            <span class="about__tag"><i class="fas fa-check-circle"></i> IGCSE Preparation</span>
+            <span class="about__tag"><i class="fas fa-check-circle"></i> WAEC / GCE</span>
+            <span class="about__tag"><i class="fas fa-check-circle"></i> NECO</span>
+            <span class="about__tag"><i class="fas fa-check-circle"></i> Special Intervention</span>
+            <span class="about__tag"><i class="fas fa-check-circle"></i> Home Lessons</span>
+            <span class="about__tag"><i class="fas fa-check-circle"></i> Online Tutoring</span>
+          </div>
+
+          <a href="#booking" class="btn btn--primary">
+            <i class="fas fa-calendar-alt"></i>
+            Schedule a Free Consultation
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       WHY CHOOSE ME
+  ============================================================ -->
+  <section class="section section--dark" aria-labelledby="features-title">
+    <div class="container">
+      <div class="services__header">
+        <p class="section__label">Why Choose Me</p>
+        <h2 class="section__title" id="features-title">
+          The Fasika Difference
+        </h2>
+        <p class="section__subtitle">
+          Every student deserves a tutor who believes in them. Here is what sets my teaching apart.
+        </p>
+      </div>
+
+      <div class="features__grid">
+        <div class="feature-item reveal">
+          <div class="feature-item__icon"><i class="fas fa-brain"></i></div>
+          <h3 class="feature-item__title">Conceptual Clarity</h3>
+          <p class="feature-item__desc">I break down complex concepts into digestible, memorable building blocks — no rote memorisation, genuine understanding.</p>
+        </div>
+        <div class="feature-item reveal">
+          <div class="feature-item__icon"><i class="fas fa-user-check"></i></div>
+          <h3 class="feature-item__title">Personalised Learning</h3>
+          <p class="feature-item__desc">Every session is tailored to the individual learner's pace, learning style, and specific areas of difficulty.</p>
+        </div>
+        <div class="feature-item reveal">
+          <div class="feature-item__icon"><i class="fas fa-chart-line"></i></div>
+          <h3 class="feature-item__title">Proven Results</h3>
+          <p class="feature-item__desc">With a 98% student pass rate across WAEC, NECO and IGCSE, results speak louder than promises.</p>
+        </div>
+        <div class="feature-item reveal">
+          <div class="feature-item__icon"><i class="fas fa-globe"></i></div>
+          <h3 class="feature-item__title">Flexible Delivery</h3>
+          <p class="feature-item__desc">Learn from the comfort of your home or online — I adapt to your schedule and location, locally and internationally.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SERVICES & PRICING
+  ============================================================ -->
+  <section class="section section--alt" id="services" aria-labelledby="services-title">
+    <div class="container">
+      <div class="services__header reveal">
+        <p class="section__label">Services & Pricing</p>
+        <h2 class="section__title" id="services-title">
+          Choose Your Learning Path
+        </h2>
+        <p class="section__subtitle">
+          Transparent pricing with no hidden fees. Exchange rate: ₦1,500 per $1 USD.
+        </p>
+      </div>
+
+      <div class="services__grid">
+
+        <!-- Service 1: Home Lesson -->
+        <div class="service-card reveal">
+          <div class="service-card__icon"><i class="fas fa-home"></i></div>
+          <h3 class="service-card__title">Home Lesson</h3>
+          <p class="service-card__desc">
+            I come directly to your home for focused, one-on-one sessions in a comfortable and
+            familiar environment — ideal for Primary and Secondary learners.
+          </p>
+          <div class="service-card__price">
+            <div>
+              <div class="price-ngn">₦50,000</div>
+              <div class="price-unit">per learner</div>
+            </div>
+            <div class="price-usd">≈ $33 USD</div>
+          </div>
+          <a href="#booking" class="btn btn--primary" data-service="Home Lesson">
+            <i class="fas fa-graduation-cap"></i> Enroll Now
+          </a>
+        </div>
+
+        <!-- Service 2: Online Local -->
+        <div class="service-card reveal">
+          <div class="service-card__icon"><i class="fas fa-laptop"></i></div>
+          <h3 class="service-card__title">Online Tutoring (Local)</h3>
+          <p class="service-card__desc">
+            Live interactive sessions via Zoom, Google Meet or WhatsApp Video — perfect for students
+            within Nigeria who prefer remote learning.
+          </p>
+          <div class="service-card__price">
+            <div>
+              <div class="price-ngn">₦5,000</div>
+              <div class="price-unit">per hour</div>
+            </div>
+            <div class="price-usd">≈ $3.33 USD</div>
+          </div>
+          <a href="#booking" class="btn btn--primary" data-service="Online Tutoring (Local)">
+            <i class="fas fa-graduation-cap"></i> Enroll Now
+          </a>
+        </div>
+
+        <!-- Service 3: Online International — FEATURED -->
+        <div class="service-card service-card--featured reveal">
+          <div class="service-card__icon"><i class="fas fa-globe-africa"></i></div>
+          <h3 class="service-card__title">Online Tutoring (International)</h3>
+          <p class="service-card__desc">
+            Structured online sessions for students in the diaspora or abroad requiring Nigerian
+            curriculum or international exam coaching (SAT, IGCSE).
+          </p>
+          <div class="service-card__price">
+            <div>
+              <div class="price-ngn">₦10,000</div>
+              <div class="price-unit">per hour</div>
+            </div>
+            <div class="price-usd">≈ $6.67 USD</div>
+          </div>
+          <a href="#booking" class="btn btn--gold" data-service="Online Tutoring (International)">
+            <i class="fas fa-graduation-cap"></i> Enroll Now
+          </a>
+        </div>
+
+        <!-- Service 4: Special Intervention -->
+        <div class="service-card reveal">
+          <div class="service-card__icon"><i class="fas fa-hands-helping"></i></div>
+          <h3 class="service-card__title">Special Intervention Classes</h3>
+          <p class="service-card__desc">
+            Designed for learners who have repeatedly struggled with Mathematics. A patient,
+            diagnosis-based programme that identifies and repairs foundational gaps.
+          </p>
+          <div class="service-card__price">
+            <div>
+              <div class="price-ngn">₦60,000</div>
+              <div class="price-unit">full programme</div>
+            </div>
+            <div class="price-usd">≈ $40 USD</div>
+          </div>
+          <a href="#booking" class="btn btn--primary" data-service="Special Intervention Maths Classes">
+            <i class="fas fa-graduation-cap"></i> Enroll Now
+          </a>
+        </div>
+
+        <!-- Service 5: Exam Preparation -->
+        <div class="service-card reveal">
+          <div class="service-card__icon"><i class="fas fa-pencil-alt"></i></div>
+          <h3 class="service-card__title">Exam Preparation Classes</h3>
+          <p class="service-card__desc">
+            Intensive exam-focused coaching for WAEC, NECO, GCE, IGCSE and SAT.
+            Past questions, timed practice, and strategic technique drilling.
+          </p>
+          <div class="service-card__price">
+            <div>
+              <div class="price-ngn">₦10,000</div>
+              <div class="price-unit">per day</div>
+            </div>
+            <div class="price-usd">≈ $6.67 USD</div>
+          </div>
+          <a href="#booking" class="btn btn--primary" data-service="Exam Preparation Classes">
+            <i class="fas fa-graduation-cap"></i> Enroll Now
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       BOOKING / CONTACT
+  ============================================================ -->
+  <section class="section" id="booking" aria-labelledby="booking-title">
+    <div class="container">
+      <div class="booking__grid">
+
+        <!-- Contact info -->
+        <div class="booking__info reveal">
+          <p class="section__label">Get In Touch</p>
+          <h2 class="section__title" id="booking-title">
+            Start Your<br />Learning Journey
+          </h2>
+          <p class="section__subtitle">
+            Fill in the form and I'll reach out within 24 hours to confirm your session details and
+            discuss how we can achieve your mathematics goals together.
+          </p>
+
+          <div class="booking__contact-items">
+            <div class="booking__contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <strong>Head Office</strong>
+                <span>Asaba, Delta State, Nigeria</span>
+              </div>
+            </div>
+            <div class="booking__contact-item">
+              <i class="fab fa-whatsapp"></i>
+              <div>
+                <strong>WhatsApp</strong>
+                <!-- Replace with actual number -->
+                <span><a href="https://wa.me/2349036300149" style="color:var(--wine);">+2349036300149</a></span>
+              </div>
+            </div>
+            <div class="booking__contact-item">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <strong>Email</strong>
+                <!-- Replace with actual email -->
+                <span><a href="mailto:oluwasegunfasika@gmail.com" style="color:var(--wine);">oluwasegunfasika@gmail.com</a></span>
+              </div>
+            </div>
+            <div class="booking__contact-item">
+              <i class="fas fa-clock"></i>
+              <div>
+                <strong>Availability</strong>
+                <span>Mon – Sat, 7:00 AM – 8:00 PM (WAT)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Booking form -->
+        <div class="form-card reveal">
+          <h3 class="form-card__title">Book a Session</h3>
+          <p class="form-card__sub">All fields marked <span style="color:var(--wine);">*</span> are required.</p>
+
+          <form id="bookingForm" novalidate>
+
+            <div class="form__row">
+              <div class="form__group">
+                <label class="form__label" for="fullName">Full Name <span class="req">*</span></label>
+                <input class="form__input" type="text" id="fullName" name="fullName"
+                       placeholder="e.g. Chidi Okonkwo" required autocomplete="name" />
+              </div>
+              <div class="form__group">
+                <label class="form__label" for="email">Email Address <span class="req">*</span></label>
+                <input class="form__input" type="email" id="email" name="email"
+                       placeholder="oluwasegunfasika@gmail.com" required autocomplete="email" />
+              </div>
+            </div>
+
+            <div class="form__group">
+              <label class="form__label" for="phone">Phone Number <span class="req">*</span></label>
+              <input class="form__input" type="tel" id="phone" name="phone"
+                     placeholder="+2349036300149" required autocomplete="tel" />
+            </div>
+
+            <div class="form__row">
+              <div class="form__group">
+                <label class="form__label" for="service">Service Type <span class="req">*</span></label>
+                <select class="form__select" id="service" name="service" required>
+                  <option value="" disabled selected>Select a service</option>
+                  <option value="Home Lesson">Home Lesson</option>
+                  <option value="Online Tutoring (Local)">Online Tutoring (Local)</option>
+                  <option value="Online Tutoring (International)">Online Tutoring (International)</option>
+                  <option value="Special Intervention Maths Classes">Special Intervention Classes</option>
+                  <option value="Exam Preparation Classes">Exam Preparation Classes</option>
+                </select>
+              </div>
+              <div class="form__group">
+                <label class="form__label" for="mode">Preferred Mode <span class="req">*</span></label>
+                <select class="form__select" id="mode" name="mode" required>
+                  <option value="" disabled selected>Select mode</option>
+                  <option value="Home">Home (In-Person)</option>
+                  <option value="Online">Online (Virtual)</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form__group">
+              <label class="form__label" for="message">Additional Message</label>
+              <textarea class="form__textarea" id="message" name="message"
+                        placeholder="Tell me about your goals, current level, or any specific topics you need help with…"></textarea>
+            </div>
+
+            <div class="form__submit-wrap">
+              <button type="submit" class="btn btn--primary form__submit" id="submitBtn">
+                <div class="spinner" id="spinner"></div>
+                <i class="fas fa-paper-plane" id="submitIcon"></i>
+                <span id="submitText">Send Booking Request</span>
+              </button>
+            </div>
+
+            <!-- Status messages -->
+            <div class="form__status success" id="successMsg" role="alert">
+              <i class="fas fa-check-circle"></i>
+              <span>Your booking request has been received! I'll contact you within 24 hours.</span>
+            </div>
+            <div class="form__status error" id="errorMsg" role="alert">
+              <i class="fas fa-exclamation-circle"></i>
+              <span id="errorText">Something went wrong. Please try again or contact me directly via WhatsApp.</span>
+            </div>
+
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       FOOTER
+  ============================================================ -->
+  <footer class="footer" aria-label="Site footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <p class="footer__brand-name">Oluwasegun Fasika</p>
+          <p class="footer__brand-tagline">Professional Mathematics Educator</p>
+          <p class="footer__brand-bio">
+            Empowering students across Nigeria and beyond to conquer Mathematics with confidence.
+            Specialising in Primary, Secondary, SAT, IGCSE and exam preparation since 2019.
+          </p>
+        </div>
+
+        <div>
+          <p class="footer__heading">Quick Links</p>
+          <ul class="footer__links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services & Pricing</a></li>
+            <li><a href="#booking">Book a Session</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <p class="footer__heading">Services</p>
+          <ul class="footer__links">
+            <li><a href="#services">Home Lessons</a></li>
+            <li><a href="#services">Online Tutoring</a></li>
+            <li><a href="#services">WAEC / NECO / GCE</a></li>
+            <li><a href="#services">IGCSE / SAT Prep</a></li>
+            <li><a href="#services">Special Intervention</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p class="footer__copy">
+          &copy; <span id="footerYear"></span> Oluwasegun Fasika. All rights reserved.
+          Asaba, Delta State, Nigeria.
+        </p>
+        <div class="footer__socials" aria-label="Social media links">
+          <!-- Replace # with actual social profile URLs -->
+          <a href="#" class="footer__social-link" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="footer__social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="footer__social-link" aria-label="Twitter/X"><i class="fab fa-x-twitter"></i></a>
+          <a href="https://wa.me/2349036300149" class="footer__social-link" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============================================================
+       WHATSAPP FLOATING BUTTON
+  ============================================================ -->
+  <!-- Replace 2348000000000 with actual WhatsApp number (no + sign) -->
+  <a class="wa-fab"
+     href="https://wa.me/2349036300149?text=Hello%20Oluwasegun%2C%20I%20would%20like%20to%20book%20a%20maths%20session."
+     target="_blank"
+     rel="noopener noreferrer"
+     aria-label="Chat on WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <!-- Scroll-to-top button -->
+  <button class="scroll-top" id="scrollTopBtn" aria-label="Scroll to top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <!-- ============================================================
+       JAVASCRIPT
+  ============================================================ -->
+  <script>
+    /* ============================================================
+       CONFIGURATION
+       Replace GAS_URL with your deployed Google Apps Script URL
+    ============================================================ */
+    const GAS_URL = 'https://script.google.com/macros/s/AKfycbwqVnc3nYCfdhP4ymqbElKyanA1a507viyKMvc2o_WWb4rVN8dAvsP3wR7mGkN24QGp/exec';
+
+    /* ============================================================
+       STICKY NAV
+    ============================================================ */
+    const navbar = document.getElementById('navbar');
+
+    window.addEventListener('scroll', () => {
+      navbar.classList.toggle('scrolled', window.scrollY > 60);
+    }, { passive: true });
+
+    /* ============================================================
+       MOBILE MENU
+    ============================================================ */
+    const hamburger  = document.getElementById('hamburger');
+    const mobileNav  = document.getElementById('mobileNav');
+
+    hamburger.addEventListener('click', () => {
+      const isOpen = mobileNav.classList.toggle('open');
+      hamburger.classList.toggle('open', isOpen);
+      hamburger.setAttribute('aria-expanded', String(isOpen));
+      document.body.style.overflow = isOpen ? 'hidden' : '';
+    });
+
+    function closeMobile() {
+      mobileNav.classList.remove('open');
+      hamburger.classList.remove('open');
+      hamburger.setAttribute('aria-expanded', 'false');
+      document.body.style.overflow = '';
+    }
+
+    /* ============================================================
+       SCROLL REVEAL
+    ============================================================ */
+    const revealObserver = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry, i) => {
+          if (entry.isIntersecting) {
+            // Stagger cards in grids
+            const delay = entry.target.closest('.services__grid, .features__grid')
+              ? Array.from(entry.target.parentElement.children).indexOf(entry.target) * 80
+              : 0;
+            setTimeout(() => entry.target.classList.add('visible'), delay);
+            revealObserver.unobserve(entry.target);
+          }
+        });
+      },
+      { threshold: 0.12, rootMargin: '0px 0px -60px 0px' }
+    );
+
+    document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
+
+    /* ============================================================
+       COUNTER ANIMATION (hero stats)
+    ============================================================ */
+    const counterObserver = new IntersectionObserver(
+      (entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            animateCount(entry.target);
+            counterObserver.unobserve(entry.target);
+          }
+        });
+      },
+      { threshold: 0.5 }
+    );
+
+    document.querySelectorAll('[data-count]').forEach(el => counterObserver.observe(el));
+
+    function animateCount(el) {
+      const target   = parseInt(el.dataset.count, 10);
+      const duration = 1800;
+      const start    = performance.now();
+
+      function step(now) {
+        const progress = Math.min((now - start) / duration, 1);
+        const ease     = 1 - Math.pow(1 - progress, 3);
+        el.textContent = Math.round(ease * target) + (el.dataset.suffix || (target >= 98 ? '%' : '+'));
+        if (progress < 1) requestAnimationFrame(step);
+      }
+
+      requestAnimationFrame(step);
+    }
+
+    /* ============================================================
+       SERVICE BUTTONS → PRE-FILL DROPDOWN
+    ============================================================ */
+    document.querySelectorAll('[data-service]').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        const serviceSelect = document.getElementById('service');
+        if (serviceSelect) serviceSelect.value = btn.dataset.service;
+      });
+    });
+
+    /* ============================================================
+       BOOKING FORM SUBMISSION → GOOGLE APPS SCRIPT
+    ============================================================ */
+    const form       = document.getElementById('bookingForm');
+    const submitBtn  = document.getElementById('submitBtn');
+    const spinner    = document.getElementById('spinner');
+    const submitIcon = document.getElementById('submitIcon');
+    const submitText = document.getElementById('submitText');
+    const successMsg = document.getElementById('successMsg');
+    const errorMsg   = document.getElementById('errorMsg');
+    const errorText  = document.getElementById('errorText');
+
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+
+      // Basic client-side validation
+      if (!form.checkValidity()) {
+        form.reportValidity();
+        return;
+      }
+
+      // Hide previous status messages
+      successMsg.style.display = 'none';
+      errorMsg.style.display   = 'none';
+
+      // Loading state
+      setLoading(true);
+
+      // Gather form data
+      const payload = {
+        fullName: form.fullName.value.trim(),
+        email:    form.email.value.trim(),
+        phone:    form.phone.value.trim(),
+        service:  form.service.value,
+        mode:     form.mode.value,
+        message:  form.message.value.trim()
+      };
+
+      try {
+        // Send to Google Apps Script — using no-cors mode to avoid CORS preflight issues.
+        // GAS will respond with opaque response; we treat successful fetch as success.
+        const response = await fetch(GAS_URL, {
+          method:  'POST',
+          mode:    'no-cors',
+          headers: { 'Content-Type': 'application/json' },
+          body:    JSON.stringify(payload)
+        });
+
+        // 'no-cors' means response.type === 'opaque' — we assume success if no network error
+        setLoading(false);
+        successMsg.style.display = 'flex';
+        form.reset();
+
+        // Scroll status into view
+        successMsg.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+
+      } catch (err) {
+        console.error('Form submission error:', err);
+        setLoading(false);
+        errorText.textContent = 'Network error. Please check your connection or reach out via WhatsApp.';
+        errorMsg.style.display = 'flex';
+      }
+    });
+
+    function setLoading(loading) {
+      submitBtn.disabled   = loading;
+      spinner.style.display   = loading ? 'block' : 'none';
+      submitIcon.style.display = loading ? 'none'  : 'inline-block';
+      submitText.textContent   = loading ? 'Sending…' : 'Send Booking Request';
+    }
+
+    /* ============================================================
+       SCROLL-TO-TOP BUTTON
+    ============================================================ */
+    const scrollTopBtn = document.getElementById('scrollTopBtn');
+
+    window.addEventListener('scroll', () => {
+      scrollTopBtn.classList.toggle('visible', window.scrollY > 400);
+    }, { passive: true });
+
+    scrollTopBtn.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+
+    /* ============================================================
+       FOOTER YEAR
+    ============================================================ */
+    document.getElementById('footerYear').textContent = new Date().getFullYear();
+
+  </script>
+
+</body>
+</html>
